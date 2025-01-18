@@ -10,6 +10,9 @@ The primary objective of this project is to detect the transition from the intro
 
 Spectral flux quantifies the variation in the power spectrum of an audio signal from one frame to the next. Significant shifts in spectral flux often signal critical audio events such as the onset of instruments or vocals.
 
+![sound](https://github.com/parthshr370/Sound-Intro-Time/blob/main/sound.png)
+
+
 ### High-Level Process
 
 1. **Load** the audio file, either fully or partially.
