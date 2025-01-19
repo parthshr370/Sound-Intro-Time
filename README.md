@@ -4,11 +4,13 @@
 
 ### Goal
 
-The primary objective of this project is to detect the transition from the intro to the main section of a song. This is achieved by identifying a significant change in the audio signal, referred to as an "inflection point," by analyzing the spectral flux.
+Most songs are structured into Intro, Main, and Outro sections. The intro is a critical part of a song; knowing its length helps determine how much time there is to set up the hook. While one way to find the length of an intro is to listen to it, this approach is not practical for analyzing thousands of songs manually.
+
+To overcome this, I developed a Python script that automatically identifies where the intro ends and the main section begins. The primary objective of this project is to detect the transition from the intro to the main part of a song. This transition is found by spotting a significant change in the audio signal—an "inflection point"—through analysis of the spectral flux.
 
 ### Key Concept: Spectral Flux
 
-Spectral flux quantifies the variation in the power spectrum of an audio signal from one frame to the next. Significant shifts in spectral flux often signal critical audio events such as the onset of instruments or vocals.
+Spectral flux measures how the power spectrum of an audio signal changes from one frame to the next. Large shifts in spectral flux often indicate important moments in a song, such as the start of a new instrument or vocals.
 
 ![sound](https://github.com/parthshr370/Sound-Intro-Time/blob/main/sound.png)
 
