@@ -131,6 +131,8 @@ def main():
 - **Gradual Intros:** Modify detection algorithms to better capture slow-fading intros.
 - **Multiple Peaks:** Establish criteria to determine the most significant peak when multiple candidates are present.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/parthshr370/Sound-Intro-Time/blob/main/LICENSE.txt) file for details
 
 For any suggestions 
 Reach me out at [X](https://x.com/parthshr370) or [Linkdin](https://www.linkedin.com/in/parthshr370/)
